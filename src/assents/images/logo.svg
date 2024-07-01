@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200" height="120">
+  {/* Parte superior da sacola */}
+  <path d="M50 32c-5.5 0-10 4.5-10 10h-2c0-6.6 5.4-12 12-12s12 5.4 12 12h-2c0-5.5-4.5-10-10-10z" fill="#4CAF50" />
+
+  {/* Corpo da sacola */}
+  <rect x="30" y="40" width="40" height="50" fill="#4CAF50" />
+
+  {/* Boca (sorriso triste) */}
+  <path d="M50 70c-5.5 0-10 4.5-10 10h-2c0-6.6 5.4-12 12-12s12 5.4 12 12h-2c0-5.5-4.5-10-10-10z" fill="red" />
+
+  {/* Olhos (azul) */}
+  <circle cx="45" cy="60" r="2" fill="blue" />
+  <circle cx="55" cy="60" r="2" fill="blue" />
+  
+  {/* Texto Bacola */}
+  <text x="80" y="75" dominant-baseline="middle" text-anchor="start" fill="#000" font-size="24">Sacola</text>
+</svg>
